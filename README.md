@@ -30,6 +30,7 @@ The app follows **Clean Architecture** with distinct layers:
 ## Screenshots
 
 ![app](https://github.com/user-attachments/assets/08565e58-7d1a-4d8f-8a59-2baaadc12170)
+<img src="url-de-la-imagen.jpg" width="400" />
 
 ## How It Works
 
