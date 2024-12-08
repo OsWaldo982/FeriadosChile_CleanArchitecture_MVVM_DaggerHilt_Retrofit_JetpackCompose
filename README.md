@@ -31,7 +31,6 @@ The app follows **Clean Architecture** with distinct layers:
 
 <img src="https://github.com/user-attachments/assets/b5260f4d-f5ae-4f09-bf23-1990d0824fb4" width="350" />
 
-
 ## How It Works
 
 1. **API Integration**:
@@ -50,7 +49,20 @@ The app follows **Clean Architecture** with distinct layers:
 
 The app has a well-organized folder structure to follow Clean Architecture and MVVM:
 
-com.example.feriadosapp ├── data │ ├── api # Retrofit service and API configurations │ ├── model # Data classes for API responses │ └── repository # Repository implementation for data handling ├── domain │ └── usecase # Business logic encapsulated in use cases ├── di │ └── HiltModules # Dependency injection modules ├── presentation │ ├── ui # Composables for UI screens │ ├── viewmodel # ViewModels for each feature │ └── theme # Custom Material 3 theme
+```plaintext
+com.example.feriadosapp
+├── data
+│   ├── api                # Retrofit service and API configurations
+│   ├── model              # Data classes for API responses
+│   └── repository         # Repository implementation for data handling
+├── domain
+│   └── usecase            # Business logic encapsulated in use cases
+├── di
+│   └── HiltModules        # Dependency injection modules
+├── presentation
+│   ├── ui                 # Composables for UI screens
+│   ├── viewmodel          # ViewModels for each feature
+│   └── theme              # Custom Material 3 theme
 
 
 ## How to Run
