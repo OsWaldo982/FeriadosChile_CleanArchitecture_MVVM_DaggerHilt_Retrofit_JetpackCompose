@@ -63,7 +63,7 @@ com.example.feriadosapp
 │   ├── ui                 # Composables for UI screens
 │   ├── viewmodel          # ViewModels for each feature
 │   └── theme              # Custom Material 3 theme
-
+```
 
 ## How to Run
 
