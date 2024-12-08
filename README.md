@@ -50,3 +50,37 @@ The app follows **Clean Architecture** with distinct layers:
 The app has a well-organized folder structure to follow Clean Architecture and MVVM:
 
 com.example.feriadosapp ├── data │ ├── api # Retrofit service and API configurations │ ├── model # Data classes for API responses │ └── repository # Repository implementation for data handling ├── domain │ └── usecase # Business logic encapsulated in use cases ├── di │ └── HiltModules # Dependency injection modules ├── presentation │ ├── ui # Composables for UI screens │ ├── viewmodel # ViewModels for each feature │ └── theme # Custom Material 3 theme
+
+
+## How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/OsWaldo982/FeriadosApp.git
+
+   Open the project in Android Studio.
+
+Ensure you have the latest Android Studio and SDKs installed.
+
+Sync Gradle and run the project on an emulator or physical device.
+
+API Used
+The app fetches data from the Boostr Holidays API:
+
+Endpoint: https://api.boostr.cl/holidays.json
+Dependencies
+Here's a list of the key dependencies used in the project:
+
+gradle
+Copiar código
+implementation "androidx.compose.material3:material3:<latest_version>"
+implementation "com.squareup.retrofit2:retrofit:<latest_version>"
+implementation "com.google.dagger:hilt-android:<latest_version>"
+kapt "com.google.dagger:hilt-android-compiler:<latest_version>"
+(Make sure to replace <latest_version> with the actual version numbers used in your project.)
+
+Contributions
+Contributions are welcome! If you have suggestions for improving the app, feel free to fork the repository and submit a pull request.
+
+
+
