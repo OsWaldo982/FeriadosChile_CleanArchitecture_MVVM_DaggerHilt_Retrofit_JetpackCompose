@@ -29,7 +29,8 @@ The app follows **Clean Architecture** with distinct layers:
 
 ## Screenshots
 
-<img src="08565e58-7d1a-4d8f-8a59-2baaadc12170.jpg" width="400" />
+<img src="https://github.com/user-attachments/assets/b5260f4d-f5ae-4f09-bf23-1990d0824fb4" width="500" />
+
 
 ## How It Works
 
