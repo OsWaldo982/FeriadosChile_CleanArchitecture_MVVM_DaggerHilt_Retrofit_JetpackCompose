@@ -48,3 +48,5 @@ The app follows **Clean Architecture** with distinct layers:
 ## Folder Structure
 
 The app has a well-organized folder structure to follow Clean Architecture and MVVM:
+
+com.example.feriadosapp ├── data │ ├── api # Retrofit service and API configurations │ ├── model # Data classes for API responses │ └── repository # Repository implementation for data handling ├── domain │ └── usecase # Business logic encapsulated in use cases ├── di │ └── HiltModules # Dependency injection modules ├── presentation │ ├── ui # Composables for UI screens │ ├── viewmodel # ViewModels for each feature │ └── theme # Custom Material 3 theme
